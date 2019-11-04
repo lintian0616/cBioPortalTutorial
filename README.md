@@ -73,7 +73,8 @@ BRCA1: MUT = MISSENSE_SOMATIC_DRIVER
 
 ### Example 7: cBioPortal Patient View
 
-* Query KRAS NRAS in Endometrial TCGA and Investigate the case with co-occurring oncogenic RAS mutations.
-
+* [Query KRAS NRAS in Endometrial TCGA](http://www.cbioportal.org/index.do?session_id=59f0fe51498e5df2e2973452&show_samples=false&) and Investigate [the case](http://www.cbioportal.org/case.do?case_id=TCGA-B5-A0JV&cancer_study_id=ucec_tcga_pub) with co-occurring oncogenic RAS mutations.
+	* Explore the distribution of the variant allele frequencies of the major oncogenic mutations. Are the NRAS and KRAS mutations clonal or subclonal?
+* An endometrioid cancer case
 
 
