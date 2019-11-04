@@ -75,6 +75,23 @@ BRCA1: MUT = MISSENSE_SOMATIC_DRIVER
 
 * [Query KRAS NRAS in Endometrial TCGA](http://www.cbioportal.org/index.do?session_id=59f0fe51498e5df2e2973452&show_samples=false&) and Investigate [the case](http://www.cbioportal.org/case.do?case_id=TCGA-B5-A0JV&cancer_study_id=ucec_tcga_pub) with co-occurring oncogenic RAS mutations.
 	* Explore the distribution of the variant allele frequencies of the major oncogenic mutations. Are the NRAS and KRAS mutations clonal or subclonal?
-* An endometrioid cancer case
+* [An endometrioid cancer case](https://www.cbioportal.org/patient?studyId=ucec_tcga&caseId=TCGA-BK-A0CC)
+	* Mutations and copy-number events are sorted based on recurrence and prior knowledge
+	* PPP2R1A mutation: Gene is significantly mutated according to **MutSig**, 17 occurrences in **COSMIC**, likely oncogenic according to **OncoKB**, **3D Hotspot** with 3-D structure available
+	* **Tissue Images** Tab gives you access to the original histology images
+	* The detailed pathology report can be viewed on the **Pathology Report** Tab
 
+### Example 8: Study view
+
+Choose the study and click the **pie plot** icon.
+
+* [TCGA endometrial cancer study](http://www.cbioportal.org/study?id=ucec_tcga_pub)
+	* Select the copy-number high subtype in the **Subtype** pie chart
+	* In the **Chart** Tab in the upper right, click **Reset chart**, then choose **Tumor Stage 2009**. In the upper right of button **Tumor Stage 2009** pie chart, choose **Compare Groups**
+	* Select the tumors with more than 5000 mutations in the **Mutation Count vs CNA** scatter plot by dragging a rectangle using mouse
+	* Query the top 3 mutated genes
+
+### Example 9: Group comparison between primary and metastasis tumor
+
+* Comparison of primary vs metastatic prostate cancer
 
