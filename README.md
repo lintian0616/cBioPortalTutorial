@@ -94,4 +94,15 @@ Choose the study and click the **pie plot** icon.
 ### Example 9: Group comparison between primary and metastasis tumor
 
 * Comparison of primary vs metastatic prostate cancer
+	* Open [MSK-IMPACT clinical sequencing cohort](https://www.cbioportal.org/study/summary?id=msk_impact_2017)
+	* Select **Prostate Cancer** in Cancer Type table
+	* In **Sample Type** chart, click **menu** -> **Compare Groups**
+
+### Example 10: Cross-study queries
+
+* [ERBB2 mutations across all TCGA provisional studies](https://www.cbioportal.org/results/cancerTypesSummary?Action=Submit&Z_SCORE_THRESHOLD=2.0&tab_index=tab_visualize&data_priority=0&case_set_id=all&gene_list=ERBB2&RPPA_SCORE_THRESHOLD=2.0&cancer_study_list=laml_tcga%2Cacc_tcga%2Cblca_tcga%2Clgg_tcga%2Cbrca_tcga%2Ccesc_tcga%2Cchol_tcga%2Ccoadread_tcga%2Cesca_tcga%2Cgbm_tcga%2Chnsc_tcga%2Ckich_tcga%2Ckirc_tcga%2Ckirp_tcga%2Clihc_tcga%2Cluad_tcga%2Clusc_tcga%2Cdlbc_tcga%2Cmeso_tcga%2Cov_tcga%2Cpaad_tcga%2Cpcpg_tcga%2Cprad_tcga%2Csarc_tcga%2Cskcm_tcga%2Cstad_tcga%2Ctgct_tcga%2Cthym_tcga%2Cthca_tcga%2Cucs_tcga%2Cucec_tcga%2Cuvm_tcga)
+	* Explore **OncoPrint** Tab
+	* Explore **Cancer Types Summary** Tab
+	* **Expression** Tab
+	* **Mutations** Tab
 
