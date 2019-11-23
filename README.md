@@ -105,4 +105,43 @@ Choose the study and click the **pie plot** icon.
 	* Explore **Cancer Types Summary** Tab
 	* **Expression** Tab
 	* **Mutations** Tab
+* [BRAF V600E mutations across all cancer types (BRAF: MUT = V600E)](http://www.cbioportal.org/index.do?session_id=5a0b48e6498e5df2e29836f0&show_samples=false&clinicallist=CANCER_STUDY&)
 
+### Example 11: Merging studies into a virtual study
+
+* Select MSK-IMPACT Clinical Sequencing Cohort (MSKCC, Nat Med 2017)
+* Select All Breast studies (for Breast TCGA, select Cell 2015 only)
+* Click **View summary** to open Study View
+* Select **Breast Cancer** from Cancer Type table
+* Click on the Bookmark icon to create a virtual study
+
+### Example 12: Overview of the MSK-IMPACT cohort via the study view
+
+* Select MSK-IMPACT **study view**
+* Explore the most frequently mutated and copy-number altered genes across all samples. What are the top 3 mutated, amplified, and deleted genes?
+* What is the balance of primary and metastatic tumors? Male vs female?
+* What is the sample with the highest number of mutations? (Hint: drag points in **Mutation Count vs Fraction of Genome Altered**)
+* Which patient has the largest number of sequenced samples?
+* How many patients are Part C consented? (Hint: Use the "Add Chart" menu in the top right corner.)
+* What are the most frequently altered genes in metastatic breast cancer?
+
+### Example 13: cBioPortal patient view
+
+* What is the likely cause of hypermutation in the sample with the largest number of mutations? (Hint: **Clinical Data** tab)
+* What is the likely cause of hypermutation in the second sample of this glioma patient?
+
+### Example 14: ESR1 mutations
+
+* Run a query for ESR1 mutations across the entire MSK-IMPACT cohort. (Hint: Select MSK-IMPACT and type *ESR1: MUT FUSION* in **Query By Gene**)
+* What is the tumor type with the highest mutation frequency? Use the **Cancer Types Summary** tab, limit to cancer types with 50 or more tumors (via the customize button)
+* How do mutations in breast and endometrial cancer differ from those in lung cancer? Are the differences related to overall mutation numbers in the samples? (Hint: Use the **Mutations** tab and filter via the search box in the table.)
+* Do mutation rates in samples with known ESR1 driver mutations differ from those with unknown mutations? Add **Mutation count** as a clinical track in the **OncoPrint**.
+* Assess the distribution of mutations between primary and metastatic samples in the OncoPrint. Add **Cancer Type** and **Sample Type** as clinical tracks.
+
+### Example 15: Mutual exclusivity of alterations in non-small cell lung cancer (NSCLC)
+
+* Run a query for the known mitogenic drivers (**EGFR ALK ROS1 RET ERBB2 MET FGFR1 KRAS HRAS NRAS NF1 BRAF MAP2K1**) in NSCLC and explore the OncoPrint.
+* Add **Mutation count** and **Mutation spectrum** as clinical tracks.
+* Explore known or likely driver mutations vs putative passenger mutations. Is there a correlation with mutation burden?
+* Is there a difference in mutation spectrum between EGFR missense mutations and in-frame insertions / deletions?
+* Hide the putative passenger mutations via the **Mutation** Tab -> **Color** menu. Does the mutual exclusivity between alterations increase?
